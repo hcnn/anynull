@@ -11,7 +11,7 @@ Or add to your `package.json` and run `clib install`
 ```
 { ...
     "dependencies": {
-        "hcnn/anynull": "0.1.0"
+        "hcnn/anynull": "0.1.1"
         ...
 ```
 
@@ -26,5 +26,3 @@ cd anynull
 make
 ```
 
-### Links
-* http://hcnn.de/docs/anynull
