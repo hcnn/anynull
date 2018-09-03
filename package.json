@@ -1,6 +1,6 @@
 {
   "name": "anynull",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repo": "hcnn/anynull",
   "description": "Check if any array element is NaN or INF",
   "keywords": ["isnan", "isinf"],

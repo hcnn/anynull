@@ -1,15 +1,15 @@
 #include "anynull.h"
 
-bool anynull(double* x, int n)
+bool anynull(const double* x, size_t n)
 {
-    int i=0;
+    size_t i=0;
     bool res = false;
     while(i<n){
-        if isnan(x[i]){
+        if(isnan(x[i])){
             res = true;
             break;
         }
-        if isinf(x[i]){
+        if(isinf(x[i])){
             res = true;
             break;
         }
